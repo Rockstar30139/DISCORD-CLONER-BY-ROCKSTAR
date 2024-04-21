@@ -47,16 +47,16 @@ client.on("ready", async () => {
   const r = new Discord.RichPresence()
     .setApplicationId('1146949248617828455')
     .setType('PLAYING')
-    .setURL('https://discord.gg/infinite-community-1014921352500756500')
-    .setName('☣ Infinite Community')
+    .setURL('https://discord.com/invite/3Qjx8sW4UF')
+    .setName('Royal Nukers')
     .setState('🛠 Running...')
-    .setDetails('The best server about selfbots and bots')
-    .setAssetsLargeImage('https://cdn.discordapp.com/icons/1014921352500756500/d2ed4735e5e40808124696fe97bc4c9d.png?size=2048')
-    .setAssetsLargeText('Infinite Community')
-    .setAssetsSmallImage('https://media.discordapp.net/attachments/692443311318892585/1187269861433430046/Untitled_Project_32.jpg?ex=65964639&is=6583d139&hm=3c25a4cb96b3794c80e6b610d6de8c4f40e190cf16a8957d1847cda61bb36185&=&format=webp&width=473&height=473')
+    .setDetails('The best server')
+    .setAssetsLargeImage('https://media.discordapp.net/attachments/1219303961874534491/1219563624553513000/discord-logo-png-7620.png?ex=6630ac22&is=661e3722&hm=4457764e91a3a79d37f99330716ff795ccac5280bfa08f813fcc3c438a2e9e10&')
+    .setAssetsLargeText('Royal Nukers')
+    .setAssetsSmallImage('https://media.discordapp.net/attachments/1219303961874534491/1219563624553513000/discord-logo-png-7620.png?ex=6630ac22&is=661e3722&hm=4457764e91a3a79d37f99330716ff795ccac5280bfa08f813fcc3c438a2e9e10&')
     .setAssetsSmallText('Join')
     .setStartTimestamp(new Date(1677642874 * 1000))
-    .addButton(t('join'), 'https://discord.gg/infinite-community-1014921352500756500');
+    .addButton(t('join'), 'https://discord.com/invite/3Qjx8sW4UF');
   client.user.setActivity(r);
   client.user.setPresence({ status: "idle" });
 });
